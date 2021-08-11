@@ -1,10 +1,7 @@
 ASSIGNMENT(week 01)   REPORT
 
 GROUP - 19
-DEVNARAYAN CHOUHAN
-KUMAR VAIBHAV
-PRIYANSH KUMAR 
-RISHABH TIWARI
+
 
 REFERENCE :
 1.> Beej’s guide for network programming  (https://beej.us/guide/bgnet/)
