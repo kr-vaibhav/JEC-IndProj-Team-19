@@ -169,29 +169,45 @@ INTERNET LAYER:     - IPv4( 4 bytes), IPv6( 16 bytes).
 .     netinet/in.h
 .     netdb.h
 
-.     Functions used in Server side.
-.     Socket creation. --> sockfd=socket(AF_INET,SOCK_STREAM,0);
-.     Binding socket to address and port number. --> bind(sockfd,(struct sockaddr*) 		     &serv_addr,sizeof(serv_addr));
-.     Waiting for client to approach the server. --> listen(sockfd,5);
-.     Establishing connection between server and client. --> newsockfd=accept(sockfd,(struct sockaddr*) &cli_addr,&clilen);
-.     Reading sent message. --> read(newsockfd,buffer,1024);
-.     Writing message. --> write(newsockfd,buffer,strlen(buffer));
-
-.     Functions used in Client side.
-.     Socket creation. --> sockfd=socket(AF_INET,SOCK_STREAM,0);
-.     Connecting with server. --> connect(sockfd,(struct sockaddr*) &serv_addr,sizeof(serv_addr);
-.     Reading sent message. --> read(newsockfd,buffer,1024);
-.     Writing message. --> write(newsockfd,buffer,strlen(buffer));
 
 
 
+Functions used in Server side.
+
+Socket creation. --> sockfd=socket(AF_INET,SOCK_STREAM,0);
+
+
+Binding socket to address and port number. --> bind(sockfd,(struct sockaddr*) 		     &serv_addr,sizeof(serv_addr));
+
+Waiting for client to approach the server. --> listen(sockfd,5);
+
+Establishing connection between server and client. --> newsockfd=accept(sockfd,(struct sockaddr*) &cli_addr,&clilen);
+
+Reading sent message. --> read(newsockfd,buffer,1024);
+
+Writing message. --> write(newsockfd,buffer,strlen(buffer));
+
+Functions used in Client side.
+
+Socket creation. --> sockfd=socket(AF_INET,SOCK_STREAM,0);
+
+Connecting with server. --> connect(sockfd,(struct sockaddr*) &serv_addr,sizeof(serv_addr);
+
+Reading sent message. --> read(newsockfd,buffer,1024);
+
+Writing message. --> write(newsockfd,buffer,strlen(buffer));
 
 
 
-SOURCE OF LEARNING - Beej's guide to Network Programming
-		      Link -(https://beej.us/guide/bgnet/)
-		      
-		      Youtube -(https://youtu.be/JExfKvUgrtI)
+
+
+
+SOURCE OF LEARNING - 
+
+1-Beej's guide to Network Programming :
+Link -(https://beej.us/guide/bgnet/)
+		     
+2-Youtube -(https://youtu.be/JExfKvUgrtI)
 
 
 
