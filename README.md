@@ -2,7 +2,7 @@
 
 Team Members :
 
-. Devnarayan chouhan
-. Kumar Vaibhav
-. Priyansh Kumar
+. Devnarayan chouhan  <br  />
+. Kumar Vaibhav <br  />
+. Priyansh Kumar <br  />
 . Rishabh Tiwari
