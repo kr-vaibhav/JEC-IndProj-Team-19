@@ -1,6 +1,6 @@
 # **Peer-to-Peer Group Based File Sharing System**
 
-#**Team Members**:
+**Team Members**:
 
 . Devnarayan chouhan  <br  />
 . Kumar Vaibhav <br  />
